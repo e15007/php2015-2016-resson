@@ -1,0 +1,12 @@
+insert into tunes values(null, '春だよね', 1, 1, '春が来ると聴きたくなる曲です',now());
+insert into tunes values(null, '夏だよね', 1, 2, '夏が来ると聴きたくなる曲です',now());
+insert into tunes values(null, '秋だよね', 2, 3, '秋が来ると聴きたくなる曲です',now());
+insert into tunes values(null, '冬だよね', 2, 4, 'また冬がやって来ました',now());
+insert into tunes values(null, '朝が来た', 3, 5, '朝が来ると聴きたくなります',now());
+insert into tunes values(null, '昼だよ', 3, 6, '昼になると聴きたくなります',now());
+insert into tunes values(null, 'もう夜', 4, 1, 'これを聴くと眠くなります',now());
+insert into tunes values(null, 'あけがた', 4, 2, '',now());
+insert into tunes values(null, '楽しいな', 5, 3, '楽しい時に聴きたい曲です',now());
+insert into tunes values(null, 'うれしいな', 5, 4, 'これを聴くとうれしくなります',now());
+insert into tunes values(null, '迷っちゃう', 6, 5, 'もう迷いたくないです',now());
+insert into tunes values(null, 'もう食べられない', 6, 5, '満腹状態になると聴きたくなります',now());

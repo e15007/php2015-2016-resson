@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>簡単掲示板</title>
+</head>
+<body>
+<form method="post" action="kantan_select.php">
+メッセージを表示します<br>
+<input type="submit" value="メッセージ表示">
+</form>
+<br>
+<form method="post" action="kantan_insert.php">
+名前を入力して<input type="text" name="a1"><br>
+メッセージを入力して<br>
+<input type="text" name="a2" size="150"><br>
+<input type="submit" value="メッセージ送信">
+</form>
+<br>
+<form method="post" action="kantan_delete.php">
+削除する番号を入力して<input type="text" name="b1"><br>
+<input type="submit" value="削除番号送信">
+</form>
+<br>
+<form method="post" action="kantan_search.php">
+検索のキーワードを入力して<input type="text" name="c1"><br>
+<input type="submit" value="検索">
+</form>
+</body>
+</html>

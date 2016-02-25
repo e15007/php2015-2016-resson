@@ -1,0 +1,7 @@
+The price of ポテトサラダ is 2.50 
+The price of カツカレー is 5.00 
+The price of エビチリ is 10.00 
+The price of 麻婆豆腐 is 7.00 
+The price of 沖縄そば(大) is 7.00 
+The price of 沖縄そば(中) is 5.00 
+The price of 沖縄そば(小) is 3.50 

@@ -1,0 +1,12 @@
+insert into feelings values(null, 'ルンルン');
+insert into feelings values(null, 'ノリノリ');
+insert into feelings values(null, 'ホノボノ');
+insert into feelings values(null, 'ラブラブ');
+insert into feelings values(null, 'ヘロヘロ');
+insert into feelings values(null, 'ガックリ');
+insert into artists values(null, 'ソフトズ');
+insert into artists values(null, '丸見栄子');
+insert into artists values(null, 'コナチーズ');
+insert into artists values(null, '上部安埔里');
+insert into artists values(null, '森見タマエ');
+insert into artists values(null, 'ピーエッチピー');

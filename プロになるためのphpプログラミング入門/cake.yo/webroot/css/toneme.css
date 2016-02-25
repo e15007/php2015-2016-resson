@@ -1,0 +1,341 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Osaka, メイリオ, sans-serif;
+	background: #FCEFE3 url('../img/bodybg.png') left top repeat-x;
+	color: #333333;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+a{
+	color: #FF4CA6;
+	text-decoration: underline;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+a:hover{
+	color: #FF66B3;
+	text-decoration: none;
+}
+
+a img{
+	border: none;
+}
+
+h2{
+	font-size: 100%;
+	color: #3D3D3D;
+	padding: 2px 5px;
+	border-left: 10px solid #FF0080;
+	border-bottom: 2px solid #FF0080;
+	margin-bottom: 8px;
+}
+
+#container{
+	width: 700px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#header{
+	position: absolute;
+	padding: 10px;
+}
+
+#content{
+	margin: 0 auto;
+	padding-top: 130px;
+	width: 600px;
+	overflow: auto;
+}
+
+#footer{
+	border-top: 1px solid #FF6A00;
+	margin: 1em 0 0 0;
+	padding: 3px 10px;
+	text-align: right;
+}
+
+table{
+	background: #fff;
+	border-right: 0;
+	clear: both;
+	color: #333;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+th{
+	border: 0;
+	border-bottom: 2px solid #555;
+	text-align: left;
+	padding: 4px;
+}
+
+th a{
+	display: block;
+	padding: 2px 4px;
+	text-decoration: none;
+}
+
+th a.asc:after{
+	content: ' ?';
+}
+
+th a.desc:after{
+	content: ' ?';
+}
+
+table tr td{
+	background: #fff;
+	padding: 6px;
+	text-align: left;
+	vertical-align: top;
+	border-bottom: 1px solid #ddd;
+}
+
+table tr:nth-child(2n) td{
+	background: #f5f5f5;
+}
+
+table .altrow td{
+	background: #f5f5f5;
+}
+
+td.actions{
+	text-align: center;
+	white-space: nowrap;
+}
+
+table td.actions a{
+	margin: 0px 6px;
+	padding: 2px 5px;
+}
+
+.cake-sql-log table{
+	background: #f4f4f4;
+}
+
+.cake-sql-log td{
+	padding: 4px 8px;
+	text-align: left;
+	font-family: Monaco, Consolas, "Courier New", monospaced;
+}
+.cake-sql-log caption{
+	color: #fff;
+	background: #003d4c;
+}
+
+table.tunetbl{
+	background: #FCEFE3;
+	border-collapse: collapse;
+	color: #333;
+	margin-bottom: 10px;
+	table-layout: fixed;
+	width: 100%;
+}
+
+table.tunetbl th{
+	font-size: 95%;
+	border-bottom: 2px solid #FF6633;
+	color: #FF6633;
+	text-align: center;
+	padding: 0;
+}
+
+table.tunetbl tr td{
+	background: #FCEFE3;
+	padding: 0;
+	text-align: left;
+	vertical-align: top;
+	border-bottom: 1px dashed #999999;
+}
+
+table.tunetbl .column-1{
+	width: 3em;
+	text-align: center;
+}
+
+table.tunetbl .column-5{
+	width: 4em;
+	text-align: center;
+}
+
+table.tunetbl .column-4, table.tunetbl .column-6{
+	width: 5em;
+	text-align: center;
+}
+
+table.tunetbl .tunetbltr th, table.tunetbl .tunetbltr td{
+	background: #FCEFE3;
+	text-align: left;
+}
+
+table.tunetbl .tunetbltr th{
+	border-bottom: 1px dashed #999999;
+}
+
+table.tunetbl .tunetbltr th.column-1{
+	width: 120px;
+}
+
+form{
+	padding-left: 20px;
+}
+
+label{
+	clear: both;
+	display: block;
+	float: left;
+	width: 120px;
+	margin-top: 5px;
+	padding : 0;
+	height : 1.2em;
+}
+
+form div{
+	clear: both;
+	vertical-align: text-top;
+}
+
+input[type=text]{
+	width: 190px;
+}
+
+input[type=password]{
+	width: 190px;
+}
+
+form div.submit{
+	border: 0;
+	clear: both;
+	margin-top: 10px;
+	margin-left: 120px;
+}
+
+div.submit input{
+	display: inline;
+	width: auto;
+	padding: 2px 20px;
+	border: 1px solid #CC0066;
+	background: #FF4CA6;
+	color: #FFFFFF;
+}
+
+div.submit input:hover{
+	cursor: pointer;
+	background: #FF66B3;
+}
+
+#navdiv{
+	position: absolute;
+	top: 57px;
+	width: 590px;
+	height: 20px;
+	text-align: right;
+}
+
+#navdiv form{
+	display: inline;	
+	padding: 0;
+	font-size: 70%;
+}
+
+#navdiv form input{
+	display: inline;
+	width: auto;
+	border: 0;
+	margin: 0 ;
+	height: 20px;
+	border: 0;
+	background: #FCEFE3;
+	color: #FF0080;
+	font-weight: bold;
+}
+
+#navdiv form input:hover{
+	cursor: pointer;
+	background: #FCEFE3;
+	color: #FF6633;
+	font-weight: bold;
+}
+
+
+div.boxbtn div.submit {
+	display: inline;
+}
+
+.boxbtn{
+	padding: 10px 10px 30px 40px;
+}
+
+.boxbtn input{
+	margin-right: 20px;
+}
+
+#boxface{
+	width: 60px;
+	height: 100%;
+	float: left;
+}
+
+#boxtune{
+	width: 490px;
+	float: right;
+}
+
+#artname{
+	font-size: 75%;
+}
+
+#fukit{
+	clear: both;
+	background: url("../img/boxt.png") left top no-repeat;
+	height: 20px;
+	width: 305px;
+}
+
+#fukim{
+	padding: 0 10px;
+	background: #FFCC66;
+	width: 285px;
+	font-size: 90%;
+}
+
+#fukib{
+	background: url("../img/boxb.png") left bottom no-repeat;
+	height: 10px;
+	width: 305px;
+}
+
+.style1{
+	color: #FF6633;
+}
+
+#navlink{
+	text-align: right;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+div.message{
+	clear: both;
+	color: #FFFFFF;
+	margin: 0 0 1em 0;
+	background: #C73E14;
+	padding: 0 5px;
+}
+
+div.error-message{
+	clear: both;
+	color: #FF0000;
+	padding-left: 5px;
+	font-weight: bold;
+	font-size: 90%;
+}

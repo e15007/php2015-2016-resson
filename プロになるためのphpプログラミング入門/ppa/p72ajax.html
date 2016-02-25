@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>町の名前いろいろ</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="p72ajax.js"></script>
+<style type="text/css">
+<!--
+body{ font-family: Osaka, メイリオ, sans-serif; background-color: #FCFCFC; }
+#towns { width : 90%; line-height: 1.1em; }
+#towns li { margin: 0; padding: 0 3px; display: inline; list-style-type : none; border-width: 1px;
+			border-style: solid; position: relative; background-color: #FFFFFF; }
+#towns li.r1 { border-color: #FF3344; z-index: 4; font-size:  70%; color: #FF3344; top:8px; }
+#towns li.r2 { border-color: #40C040; z-index: 3; font-size:  85%; color: #40C040; top:8px; }
+#towns li.r3 { border-color: #FF9500; z-index: 1; font-size: 100%; color: #FF9500; }
+#towns li.r4 { border-color: #668CFF; z-index: 2; font-size: 115%; color: #668CFF; }
+#towns li.r5 { border-color: #FF66F3; z-index: 5; font-size: 130%; color: #FF66F3; }
+#towns li:hover { z-index: 6; cursor: pointer; background-color: #FFFF99; }
+-->
+</style>
+</head>
+<body>
+<h3>町の名前いろいろ</h3>
+<form action="#">
+都道府県
+<select id="addr1">
+<option value="0">選択してください</option>
+<option value="1">北海道</option>
+<option value="2">青森県</option>
+<option value="3">岩手県</option>
+<option value="4">宮城県</option>
+<option value="5">秋田県</option>
+<option value="6">山形県</option>
+<option value="7">福島県</option>
+<option value="8">茨城県</option>
+<option value="9">栃木県</option>
+<option value="10">群馬県</option>
+<option value="11">埼玉県</option>
+<option value="12">千葉県</option>
+<option value="13">東京都</option>
+<option value="14">神奈川県</option>
+<option value="15">新潟県</option>
+<option value="16">富山県</option>
+<option value="17">石川県</option>
+<option value="18">福井県</option>
+<option value="19">山梨県</option>
+<option value="20">長野県</option>
+<option value="21">岐阜県</option>
+<option value="22">静岡県</option>
+<option value="23">愛知県</option>
+<option value="24">三重県</option>
+<option value="25">滋賀県</option>
+<option value="26">京都府</option>
+<option value="27">大阪府</option>
+<option value="28">兵庫県</option>
+<option value="29">奈良県</option>
+<option value="30">和歌山県</option>
+<option value="31">鳥取県</option>
+<option value="32">島根県</option>
+<option value="33">岡山県</option>
+<option value="34">広島県</option>
+<option value="35">山口県</option>
+<option value="36">徳島県</option>
+<option value="37">香川県</option>
+<option value="38">愛媛県</option>
+<option value="39">高知県</option>
+<option value="40">福岡県</option>
+<option value="41">佐賀県</option>
+<option value="42">長崎県</option>
+<option value="43">熊本県</option>
+<option value="44">大分県</option>
+<option value="45">宮崎県</option>
+<option value="46">鹿児島県</option>
+<option value="47">沖縄県</option>
+</select>
+市区町村
+<select id="addr2">
+</select>
+<ul id="towns"></ul>
+</body>
+</form>
+</html>
